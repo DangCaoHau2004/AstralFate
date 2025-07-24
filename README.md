@@ -19,10 +19,10 @@
 </ul>
 
 <p align="center">
-  <img src="./images/gamePlay1.gif" width="23%" />
-  <img src="./images/gamePlay2.gif" width="23%" />
-  <img src="./images/gamePlay3.gif" width="23%" />
-  <img src="./images/gamePlay4.gif" width="23%" />
+  <img src="https://github.com/DangCaoHau2004/AstralFate/blob/master/images/gamePlay1.gif?raw=true" width="23%" />
+  <img src="https://github.com/DangCaoHau2004/AstralFate/blob/master/images/gamePlay2.gif?raw=true" width="23%" />
+  <img src="https://github.com/DangCaoHau2004/AstralFate/blob/master/images/gamePlay3.gif?raw=true" width="23%" />
+  <img src="https://github.com/DangCaoHau2004/AstralFate/blob/master/images/gamePlay4.gif?raw=true" width="23%" />
 </p>
 
 <h3>Hệ thống nâng cấp:</h3>

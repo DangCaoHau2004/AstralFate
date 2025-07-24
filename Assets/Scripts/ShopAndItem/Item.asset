@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e972f892dfbd2e4990dd8e0c2466ff0, type: 3}
+  m_Name: Item
+  m_EditorClassIdentifier: 
+  _increaseAttack: {fileID: 5523630204628833594, guid: b7994d1c242fa804891799aad268f3bb, type: 3}
+  _increaseAttackSpeed: {fileID: -8350198849415298931, guid: b76bea77eaa2a7e4e961dd6779376584, type: 3}
+  _increaseMaxHealth: {fileID: -479711990131035995, guid: 2c750408326cf1046b669e78d8a6d8f5, type: 3}
+  _increaseSpeed: {fileID: -4115439610729684787, guid: 4af733004625a73428d72aed9e37ff91, type: 3}
+  _healHealth: {fileID: -7974819991322480459, guid: 2f364456efd08aa41bb8450ffb8ccbfd, type: 3}

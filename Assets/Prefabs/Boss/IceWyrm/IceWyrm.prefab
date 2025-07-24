@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8466025303822473025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5135101671866055174}
+  - component: {fileID: 7105761646180653852}
+  - component: {fileID: 8922205331499165838}
+  m_Layer: 0
+  m_Name: IceWyrm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5135101671866055174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466025303822473025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.20953979, y: 0.012912285, z: -0.08993309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7105761646180653852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466025303822473025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c526d8ce13785642b4e1e427b58d8a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headPrefab: {fileID: 6146923721193004288, guid: f8ff73af8d7ca6b49b740e4b497f447f, type: 3}
+  bodyPrefab: {fileID: 3677294071780308837, guid: beda87d44e8a92d43862537ddb7a8341, type: 3}
+  tailPrefab: {fileID: 1139930868879045179, guid: fbccc75583bcb43469c4729afd5ccb9d, type: 3}
+  totalLength: 9
+  moveSpeed: 7
+  followSpeed: 50
+  reachDistance: 0.1
+  segmentSpacing: 1
+  wayConfig:
+  - {fileID: 11400000, guid: 03dd5ab4252c3ce4ea1c1b2b2345a2df, type: 2}
+  - {fileID: 11400000, guid: ba92acce7920a4e479c5ccc0ce93a498, type: 2}
+  - {fileID: 11400000, guid: dd2aaaaa70d1d5d4cb28370eb61df5e0, type: 2}
+  - {fileID: 11400000, guid: dbbc351d7b859024d8c61f65d9047b9f, type: 2}
+--- !u!114 &8922205331499165838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466025303822473025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d8b7a49a9277046b58d2fc3914049c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 2000
+  health: 2000
+  coin: 200
+  hitEffect: {fileID: 0}
+  isPlayer: 0
+  wantChangePosHitEff: 0

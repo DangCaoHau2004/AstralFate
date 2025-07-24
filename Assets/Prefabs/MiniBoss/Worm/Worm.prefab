@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8466025303822473025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5135101671866055174}
+  - component: {fileID: 7105761646180653852}
+  - component: {fileID: 8922205331499165838}
+  m_Layer: 9
+  m_Name: Worm
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5135101671866055174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466025303822473025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7105761646180653852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466025303822473025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c526d8ce13785642b4e1e427b58d8a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headPrefab: {fileID: 6146923721193004288, guid: 9724ff102816c844597fbdddd3689d73, type: 3}
+  bodyPrefab: {fileID: 3677294071780308837, guid: bfdf43c31da64874f9d6e8b0b5c6478a, type: 3}
+  tailPrefab: {fileID: 1139930868879045179, guid: 2fc7225f25921514283462f65e70703c, type: 3}
+  totalLength: 20
+  moveSpeed: 7
+  followSpeed: 50
+  reachDistance: 0.1
+  segmentSpacing: 0.5
+  wayConfig:
+  - {fileID: 11400000, guid: 15ef0929e7739334d97926a1a5e3bffc, type: 2}
+  - {fileID: 11400000, guid: d4634329ba4ca224c9aad96b4d85e40f, type: 2}
+  - {fileID: 11400000, guid: f090bc656d2de9b4788bc1d8726695d9, type: 2}
+--- !u!114 &8922205331499165838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466025303822473025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d8b7a49a9277046b58d2fc3914049c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1000
+  health: 1000
+  coin: 50
+  hitEffect: {fileID: 0}
+  isPlayer: 0
+  wantChangePosHitEff: 0
